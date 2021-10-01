@@ -31,7 +31,7 @@ RUN code-server --install-extension ms-python.python
 
 # Install apt packages:
 # RUN sudo apt-get install -y ubuntu-make
-RUN sudo apt-get install -y python3
+RUN sudo apt-get install python3 pip
 
 # Copy files: 
 # COPY deploy-container/myTool /home/coder/myTool
